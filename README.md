@@ -8,6 +8,11 @@ This is a helper program for [Scoop](https://scoop.sh), the Windows command-line
 ```
 path = <path to executable without quotes>
 args = <arguments>
+env:VARNAME = <value>
+envappend:VARNAME = <value>
+envprepend:VARNAME = <value>
+envsep = <value>
+envclear:VARNAME = <anything>
 ```
 
 # Usage
